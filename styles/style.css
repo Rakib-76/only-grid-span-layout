@@ -1,0 +1,24 @@
+
+.box{
+    background-color: lightgray;
+
+   
+
+}
+/* .span ekhane alada kore gap na diye ekbare gap use korlei hobe */
+.span{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    row-gap: 20px;
+    column-gap: 20px;
+}
+
+/* .box ekhane row borbor 5 column span koranor jonno grid-row attribute use kora hoyeche  */
+.box-1{
+    grid-row: span 5;
+}
+.box-11, .box-12{
+    grid-column: span 3;
+}
